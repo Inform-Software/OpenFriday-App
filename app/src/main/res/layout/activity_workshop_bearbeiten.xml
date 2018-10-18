@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/status"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edit_thema"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Thema"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_beschreibung"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Beschreibung"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Falls Du während einer Session nicht kannst, dann wähle diese aus:"
+        android:textSize="10pt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/check_session_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session 1" />
+
+        <CheckBox
+            android:id="@+id/check_session_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session 2" />
+
+        <CheckBox
+            android:id="@+id/check_session_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session 3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Falls Du Deinen Workshop in einem bestimmten Raum abhalten willst:"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edit_raum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Raum" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_zurueck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Zurück" />
+
+        <Button
+            android:id="@+id/button_bestaestigen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Bestätigen" />
+    </RelativeLayout>
+
+
+</LinearLayout>

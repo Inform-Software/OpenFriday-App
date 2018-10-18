@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Openfriday</string>
+    <string name="info_1">Bitte gib Deinen Namen ein:</string>
+    <string name="ok">OK</string>
+    <string name="status">Status: </string>
+    <string name="name">Name</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string-array name="selection_array">
+        <item>Flaute</item>
+        <item>Session 1</item>
+        <item>Session 2</item>
+        <item>Sessionphase</item>
+        <item>Session 3</item>
+        <item>Erstellung des Stundenplans</item>
+        <item>Abstimmung</item>
+        <item>Workshoperstellung</item>
+    </string-array>
+    <string name="url">10.0.2.2:8080/</string>
+    <string name="w_hle_weise">Wähle weise!!!</string>
+    <string name="zur_ck">Zurück</string>
+    <string name="best_tigen">Bestätigen</string>
+
+</resources>

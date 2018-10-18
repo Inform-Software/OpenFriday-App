@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/status"
+            android:textSize="10pt"
+            tools:context=".LoginActivity" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="    " />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/name"
+            android:textSize="10pt"
+            tools:context=".LoginActivity" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+
+        <Button
+            android:id="@+id/button_abstimmung"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Abstimmung" />
+
+        <Button
+            android:id="@+id/button_auswertung"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Auswertung" />
+
+        <Button
+            android:id="@+id/button_workshoperstellen"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Workshop erstellen" />
+
+        <Button
+            android:id="@+id/button_meineworkshops"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Meine Workshops" />
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="LOGOUT" />
+
+    </LinearLayout>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
